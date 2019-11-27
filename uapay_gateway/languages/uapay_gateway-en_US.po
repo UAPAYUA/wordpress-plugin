@@ -1,0 +1,107 @@
+# Translation of WordPress - Administration in English
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-04-04 17:17+0300\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: en_US\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.0.6\n"
+
+msgid "UAPAY"
+msgstr "UAPAY"
+
+msgid "UAPAY: Сумма за оплату заказа списана с клиента"
+msgstr "UAPAY: Sum for payment of the order deducted from the client"
+
+msgid "UAPAY: Платёж отменен"
+msgstr "UAPAY: Payment Canceled"
+
+msgid "Нельзя сменить на этот статус, так как платеж подтвержден"
+msgstr "Cannot be changed to this status, as payment is confirmed"
+
+msgid "Нельзя сменить статус, пока платеж не подтвержден со стороны UAPAY"
+msgstr "You cannot change status until payment is confirmed by UAPAY"
+
+msgid "Сума частичного возврата %s"
+msgstr "Partial Refund Sum %s"
+
+msgid "UAPAY: Платёж возвращен"
+msgstr "UAPAY: Payment refunded"
+
+msgid "Error! Сума возврата должна быть больше 0"
+msgstr "Error! The return sum must be greater than 0"
+
+msgid "Платежный шлюз отключен."
+msgstr "The payment gateway is disabled."
+
+msgid "Вкл. / Выкл."
+msgstr "On / Off"
+
+msgid "Включить"
+msgstr "On"
+
+msgid "Тестовый режим"
+msgstr "Test mode"
+
+msgid "Заголовок"
+msgstr "Header"
+
+msgid "Описание, которое отображается в процессе выбора формы оплаты"
+msgstr "The description that is displayed during the payment method selection process"
+
+msgid "Оплатить через платежную систему UAPAY"
+msgstr "Pay through the payment system UAPAY"
+
+msgid "Описание"
+msgstr "Description"
+
+msgid "UAPAY не поддерживает валюту Вашего магазина!"
+msgstr "UAPAY does not support the currency of your store!"
+
+msgid "Заголовок, который отображается на странице оформления заказа"
+msgstr "The title that appears on the ordering page"
+
+msgid "URL переадресации клиента просле оплаты"
+msgstr "Redirect URL after payment"
+
+msgid "секретный ключ UAPAY"
+msgstr "secret key UAPAY"
+
+msgid "Тип операции UAPAY"
+msgstr "Type operation UAPAY"
+
+msgid "Ваш заказ обрабатывается"
+msgstr "Your order is being processed"
+
+msgid "Спасибо за Ваш заказ, пожалуйста, нажмите кнопку ниже, чтобы заплатить."
+msgstr "Thank you for your order, please click the button below to pay."
+
+msgid "Оплатить"
+msgstr "Pay"
+
+msgid "UAPAY: Сума для оплаты заказа зарезервирована"
+msgstr "UAPAY: Sum for reservation is reserved"
+
+msgid "UAPAY: Заказ не оплачен"
+msgstr "UAPAY: Order not paid"
+
+msgid "Заказ не оплачен"
+msgstr "Order not paid"
+
+msgid "UAPAY: Заказ успешно оплачен"
+msgstr "UAPAY: Order successfully paid"
+
+msgid "ID платежа(payment id): "
+msgstr "Payment id: "
+
+msgid "ID счета(invoice id): "
+msgstr "Invoice id: "
+
+msgid "UAPAY.ua сообщил об ошибке: "
+msgstr "UAPAY.ua reported an error: "

@@ -2,8 +2,8 @@
 /*
 Plugin Name: UAPAY Gateway
 Description: Платежный шлюз "UAPAY" для сайтов на WordPress.
-Version: 1.0
-Lat Update: 10.10.2019
+Version: 1.0.1
+Lat Update: 21.12.2020
 Author: UAPAY
 Author URI: https://uapay.ua
 */
@@ -27,9 +27,9 @@ function uapay_endpoint() {
 
 function uapay_listen_redirect( $query ) {
 	if(($query->get('pagename') == 'uapay-redirect') || (strpos($_SERVER['REQUEST_URI'], 'uapay-redirect') !== false)) {
-		get_header();
+		//get_header();
 		(new WC_Gateway_Uapay)->generatePayment($_REQUEST['order_id']);
-		get_footer();
+		//get_footer();
 		exit;
 	}
 }
@@ -362,7 +362,8 @@ function uapay_init()
 
 						$order->set_transaction_id($result['id']);
 						$order->save();
-						?>
+						wp_redirect($result['paymentPageUrl']);
+						/*?>
 						<p><? _e('Спасибо за Ваш заказ, пожалуйста, нажмите кнопку ниже, чтобы заплатить.', 'uapay');?></p>
 						<div class="btn-actions-uapay">
 							<a class="button btn-primary btn-uapay" href="<?= $result['paymentPageUrl']; ?>"
@@ -385,7 +386,7 @@ function uapay_init()
 								width: 200px;
 							}
 						</style>
-						<?
+						<?*/
 					}
 
 					if ($result === false) {
